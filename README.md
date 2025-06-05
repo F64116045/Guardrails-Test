@@ -65,10 +65,10 @@ DetectPII(["PHONE_NUMBER", "CREDIT_CARD"], on_fail="fix")
 ```
 可以依需求擴充更多欄位，例如 `EMAIL_ADDRESS`、`PERSON`、`URL` 等。
 ##  on_fail 
-- 'exception' : 驗證失敗時直接丟出錯誤
-- 'noop' : 驗證失敗時不做任何事，只記錄錯誤
-- 'fix' : 驗證失敗時自動修正
-- 'reask' : 驗證失敗時請 LLM 重新生成回覆
+- `exception` : 驗證失敗時直接丟出錯誤
+- `noop` : 驗證失敗時不做任何事，只記錄錯誤
+- `fix` : 驗證失敗時自動修正
+- `reask` : 驗證失敗時請 LLM 重新生成回覆
 ##  結果 (部分)
 實際執行 `validators.py` 的部分輸出結果：
 
