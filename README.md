@@ -66,7 +66,7 @@ DetectPII(["PHONE_NUMBER", "CREDIT_CARD"], on_fail="fix")
 可以依需求擴充更多欄位，例如 `EMAIL_ADDRESS`、`PERSON`、`URL` 等。
 
 ##  結果 (部分)
-實際執行 `input_output_guard.py` 的部分輸出結果：
+實際執行 `validators.py` 的部分輸出結果：
 
 ```
 [Valid Input]
